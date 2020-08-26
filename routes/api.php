@@ -25,3 +25,4 @@ Route::post('articles','Api\ArticleController@store');
 Route::put('articles/{id}','Api\ArticleController@update');
 Route::delete('articles/{id}','Api\ArticleController@delete');
 //end api for article
+Route::post('register', 'Auth\RegisterController@register');
